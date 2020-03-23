@@ -75,10 +75,11 @@
             this.bunifuDataViz1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.bunifuDataViz1.ForeColor = System.Drawing.Color.Black;
             this.bunifuDataViz1.Location = new System.Drawing.Point(8, 79);
+            this.bunifuDataViz1.Margin = new System.Windows.Forms.Padding(0);
             this.bunifuDataViz1.Name = "bunifuDataViz1";
             this.bunifuDataViz1.Size = new System.Drawing.Size(322, 312);
             this.bunifuDataViz1.TabIndex = 0;
-            this.bunifuDataViz1.Theme = Bunifu.DataViz.WinForms.BunifuDataViz._theme.theme3;
+            this.bunifuDataViz1.Theme = Bunifu.DataViz.WinForms.BunifuDataViz._theme.theme1;
             this.bunifuDataViz1.Title = "";
             // 
             // bunifuDataViz2

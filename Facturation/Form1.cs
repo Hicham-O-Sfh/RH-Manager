@@ -18,6 +18,7 @@ namespace Facturation
         public Form1()
         {
             InitializeComponent();
+            // à modifier !
             IsAdmin = true;
         }
 
