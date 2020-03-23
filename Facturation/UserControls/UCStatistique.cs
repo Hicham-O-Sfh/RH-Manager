@@ -35,6 +35,9 @@ namespace Facturation.UserControls
                 bunifuDataViz1.Render(canvas);
                 dataPoint.clear();
 
+                // ***Statistiques***
+                //manque remplissage de Dataviz 2 et 3
+
                 this.LB_NbrClient.Text = db.CLIENTs.Count<CLIENT>().ToString();
                 this.LB_NbrIngenieur.Text = db.INGENIEURs.Count<INGENIEUR>().ToString();
                 this.LB_FactureImp.Text = db.FACTURATIONs.Where(facture => facture.EstImprime == true).ToList().Count<FACTURATION>().ToString();
