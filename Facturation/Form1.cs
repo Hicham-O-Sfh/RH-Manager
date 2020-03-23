@@ -105,6 +105,11 @@ namespace Facturation
         private void tileBtnIngenieur_Click(object sender, EventArgs e)
         {
             //interface saisie des ingénieurs
+            ActiveButton(((BunifuFlatButton)sender).Name);
+            this.uIngenieur1.BringToFront();
+          
+
+          
         }
 
         private void tileBtnSecrtr_Click(object sender, EventArgs e)
@@ -116,6 +121,16 @@ namespace Facturation
         {
             ActiveButton(((BunifuFlatButton)sender).Name);
             // afficher user control de l'impression
+        }
+
+        private void ucHome1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaGradient2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
