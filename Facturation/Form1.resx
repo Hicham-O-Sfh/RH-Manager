@@ -123,28 +123,7 @@
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>60</value>
   </metadata>
-  <data name="label7.Text" xml:space="preserve">
-    <value>          Toute la gestion des personnels est saisie et intégrée dans la base de donnée, d'une maniére ultra-sécurisé pour garantir la vivacité et l'utilité de l'application, ainsi que la protection des données de chaque individu servant en sein de la société -Socilya-. Bien sur que les performance de l'application ainsi que sa vitesse ne seront pas impactés par la sécurisation des données, afin de permettre une bonne expérience à notre cher utilisateur.</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bunifuThinButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAKMAAAAwCAYAAAB9nsptAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALbSURBVHhe7ZzPaxNBGIb9F7148uKpl3rJQQ+iQvVQwVws
-        SkEoooJ6CEgRLWJRCEIECWihUIX20F4EpRRq9kdjx7yznW02uyalzY5zeB54SZkmOT3MtzvZ7ztn0tQQ
-        EkKQkQQTZCTBBBlJMEFGEkyQkQSTE8u4s5OYtfXErH6MzfNXhEzOyofYOrO5lVQ6NZqxMu7vJfZLZ29F
-        5vzlHiGnzqVrkVl8FttNrco15Z8ydr/G9gvcl128Epnr9xLTfDQQ9HVKyMQsPE2tMzM3jz260OjZ6lrl
-        XElG7YYLj+P8w1ebsel86RuAs7C5/cfMPUhyr+bux2b3Z3GXLMnoRJTBrbeDNYApsto5sFXWbnR3I5P+
-        PnavIKNKsxNRJgPUwe7eYX4JqHuSkowqz+4N7IhQN931fr7xbXzPynUu45OXWT3XNSKADxZfpJlzg3Jd
-        kHHmRnZhufaN8gx+kHraGeWdbmasjDqU1ILKNIBPdFQo99qfjmTsdLOF+YeD2g3gEZ1Hyr3WmyiTcfld
-        dhetGg7gk5X2gXVPd9VWRv1hFwaWAvjE7YzICP8dZIRgQEYIBmSEYEBGCAZkhGBARggGZIRgQEYIBmSE
-        YEBGCAZkhGAoyajHd7Sw1EJG8Mvy+5GndvRgoxbU5wrgE/VbFWTUCAotNO7Q/wJ+cX0wauy3Mqp31fUi
-        /Ph1ePQ2gPpx0ybU+mJlVJpL2SJPe4Mv1NAv59QMKAdzGdW7qn8odAhC3agCu8kSmlZWkFFxRzzqEtzv
-        Ua6hPjQQSq5p5o7zryCjrh0b85mts7djs7HFDgnTRaNN3AAobXrDw58KMiqanzc8j5FRJzAt2p/7eWnW
-        q2Y7DbtXklEZHYsng3UGqdNyXXTqlZBJkSvazPRjiiqt86lqHJ5SKaOLzHVjTwg5a7Qbqke/yjVlrIwu
-        OgPST4a6wSHkNHGTxsblRDIS4iPISIIJMpJggowkmCAjCSSp+Qufd8VDkA+bdAAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAc2AAAAEAIACosgAAFgAAACgAAABzAAAAwAAAAAEAIAAAAAAAgKwAAMMOAADDDgAAAAAAAAAA
@@ -915,6 +894,27 @@
   <metadata name="bunifuDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>172, 21</value>
   </metadata>
+  <data name="label7.Text" xml:space="preserve">
+    <value>          Toute la gestion des personnels est saisie et intégrée dans la base de donnée, d'une maniére ultra-sécurisé pour garantir la vivacité et l'utilité de l'application, ainsi que la protection des données de chaque individu servant en sein de la société -Socilya-. Bien sur que les performance de l'application ainsi que sa vitesse ne seront pas impactés par la sécurisation des données, afin de permettre une bonne expérience à notre cher utilisateur.</value>
+  </data>
+  <data name="bunifuThinButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAKMAAAAwCAYAAAB9nsptAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALbSURBVHhe7ZzPaxNBGIb9F7148uKpl3rJQQ+iQvVQwVws
+        SkEoooJ6CEgRLWJRCEIECWihUIX20F4EpRRq9kdjx7yznW02uyalzY5zeB54SZkmOT3MtzvZ7ztn0tQQ
+        EkKQkQQTZCTBBBlJMEFGEkyQkQSTE8u4s5OYtfXErH6MzfNXhEzOyofYOrO5lVQ6NZqxMu7vJfZLZ29F
+        5vzlHiGnzqVrkVl8FttNrco15Z8ydr/G9gvcl128Epnr9xLTfDQQ9HVKyMQsPE2tMzM3jz260OjZ6lrl
+        XElG7YYLj+P8w1ebsel86RuAs7C5/cfMPUhyr+bux2b3Z3GXLMnoRJTBrbeDNYApsto5sFXWbnR3I5P+
+        PnavIKNKsxNRJgPUwe7eYX4JqHuSkowqz+4N7IhQN931fr7xbXzPynUu45OXWT3XNSKADxZfpJlzg3Jd
+        kHHmRnZhufaN8gx+kHraGeWdbmasjDqU1ILKNIBPdFQo99qfjmTsdLOF+YeD2g3gEZ1Hyr3WmyiTcfld
+        dhetGg7gk5X2gXVPd9VWRv1hFwaWAvjE7YzICP8dZIRgQEYIBmSEYEBGCAZkhGBARggGZIRgQEYIBmSE
+        YEBGCAZkhGAoyajHd7Sw1EJG8Mvy+5GndvRgoxbU5wrgE/VbFWTUCAotNO7Q/wJ+cX0wauy3Mqp31fUi
+        /Ph1ePQ2gPpx0ybU+mJlVJpL2SJPe4Mv1NAv59QMKAdzGdW7qn8odAhC3agCu8kSmlZWkFFxRzzqEtzv
+        Ua6hPjQQSq5p5o7zryCjrh0b85mts7djs7HFDgnTRaNN3AAobXrDw58KMiqanzc8j5FRJzAt2p/7eWnW
+        q2Y7DbtXklEZHYsng3UGqdNyXXTqlZBJkSvazPRjiiqt86lqHJ5SKaOLzHVjTwg5a7Qbqke/yjVlrIwu
+        OgPST4a6wSHkNHGTxsblRDIS4iPISIIJMpJggowkmCAjCSSp+Qufd8VDkA+bdAAAAABJRU5ErkJggg==
+</value>
+  </data>
   <metadata name="bunifuElipse_panel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>742, 15</value>
   </metadata>
