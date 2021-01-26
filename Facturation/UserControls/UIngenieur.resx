@@ -158,20 +158,18 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="bunifuButton4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAHwAAAAxCAYAAAAY2M0MAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACfSURBVHhe7dE5AYBAAMAwRIGDwwfOMAZaeHYU0AyZOnY6
-        lnV7XCRs7/CvwE8ZHmN4jOExhscYHmN4jOExhscYHmN4jOExhscYHmN4jOExhscYHmN4jOExhscYHmN4
-        jOExhscYHmN4jOExhscYHmN4jOExhscYHmN4jOExhscYHmN4jOExhscYHmN4jOExhscYHmN4zHTOY/8K
-        /M85j/0GJMFapgouMeAAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAFMAAAAgCAYAAABuBERvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB2SURBVGhD7dApAYQAAABBQkED6EEzikEWHo/hbuWIUet2
+        2KdlvZ38bX1mvgV+YGbIzJCZITNDZobMDJkZMjNkZsjMkJkhM0NmhswMmRkyM2RmyMyQmSEzQ2aGzAyZ
+        GTIzZGbIzJCZITNDZoaGY5y3t8A3xzhvF9qxMUmPtRzcAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="bunifuButton1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOEAAAAxCAYAAAAsjc5VAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC5SURBVHhe7dMxEYQwAADBSEUACAAzSPs4eYaeOtdssdXV
-        N/brtx3X/APrvf+NrwCsY0KImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm
-        QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi
-        JoSYCSFmQoiZEGImhJgJIWZCiJkQYuM45/0VgAXOeT/mYnYcILrjkwAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAJYAAAAgCAYAAADwkoGKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACESURBVHhe7dIxEYNAAADBlxoBIADMII13QiY9VeC6Lba6
+        9sayn591nxe85ffUuAvwlLFIGIuEsUgYi4SxSBiLhLFIGIuEsUgYi4SxSBiLhLFIGIuEsUgYi4SxSBiL
+        hLFIGIuEsUgYi4SxSBiLhLFIGIuEsUgYi4SxSIx1m8ddgL9t8/gC23cBiV7LXngAAAAASUVORK5CYII=
 </value>
   </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

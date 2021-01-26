@@ -123,9 +123,6 @@
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>60</value>
   </metadata>
-  <data name="label7.Text" xml:space="preserve">
-    <value>          Toute la gestion des personnels est saisie et intégrée dans la base de donnée, d'une maniére ultra-sécurisé pour garantir la vivacité et l'utilité de l'application, ainsi que la protection des données de chaque individu servant en sein de la société -Socilya-. Bien sur que les performance de l'application ainsi que sa vitesse ne seront pas impactés par la sécurisation des données, afin de permettre une bonne expérience à notre cher utilisateur.</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -897,6 +894,9 @@
   <metadata name="bunifuDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>172, 21</value>
   </metadata>
+  <data name="label7.Text" xml:space="preserve">
+    <value>          Toute la gestion des personnels est saisie et intégrée dans la base de donnée, d'une maniére ultra-sécurisé pour garantir la vivacité et l'utilité de l'application, ainsi que la protection des données de chaque individu servant en sein de la société -Socilya-. Bien sur que les performance de l'application ainsi que sa vitesse ne seront pas impactés par la sécurisation des données, afin de permettre une bonne expérience à notre cher utilisateur.</value>
+  </data>
   <data name="bunifuThinButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAKMAAAAwCAYAAAB9nsptAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8

@@ -106,11 +106,10 @@ namespace Facturation
         private void tileBtnIngenieur_Click(object sender, EventArgs e)
         {
             //interface saisie des ingénieurs
-            ActiveButton(((BunifuFlatButton)sender).Name);
             this.uIngenieur1.BringToFront();
-          
 
-          
+
+
         }
 
         private void tileBtnSecrtr_Click(object sender, EventArgs e)

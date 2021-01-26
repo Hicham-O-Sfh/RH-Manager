@@ -44,6 +44,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.tileBtnIngenieur = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuShadowPanel2 = new Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel();
+            this.ucHome1 = new Facturation.UserControls.UCHome();
             this.label4 = new System.Windows.Forms.Label();
             this.tileBtnSecrtr = new Bunifu.Framework.UI.BunifuTileButton();
             this.containerButton = new System.Windows.Forms.FlowLayoutPanel();
@@ -58,6 +59,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.ucStatistique1 = new Facturation.UserControls.UCStatistique();
+            this.ucSaisie1 = new Facturation.UserControls.UCSaisie();
+            this.ucCrudClient1 = new Facturation.UserControls.UCCrudClient();
             this.bunifuElipse_panel = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse_panelchoix = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -66,10 +70,6 @@
             this.bunifuElipse7 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse8 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse9 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.ucHome1 = new Facturation.UserControls.UCHome();
-            this.ucStatistique1 = new Facturation.UserControls.UCStatistique();
-            this.ucSaisie1 = new Facturation.UserControls.UCSaisie();
-            this.ucCrudClient1 = new Facturation.UserControls.UCCrudClient();
             this.bunifuElipse_saisie = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse_stats = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -102,6 +102,8 @@
             // gunaGradient2Panel1
             // 
             this.gunaGradient2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(109)))), ((int)(((byte)(246)))));
+            this.gunaGradient2Panel1.Controls.Add(this.uIngenieur1);
+            this.gunaGradient2Panel1.Controls.Add(this.ucHome1);
             this.gunaGradient2Panel1.Controls.Add(this.panelChoix);
             this.gunaGradient2Panel1.Controls.Add(this.containerButton);
             this.gunaGradient2Panel1.Controls.Add(this.panel1);
@@ -212,7 +214,6 @@
             // bunifuShadowPanel1
             // 
             this.bunifuShadowPanel1.BorderColor = System.Drawing.Color.Transparent;
-            this.bunifuShadowPanel1.Controls.Add(this.uIngenieur1);
             this.bunifuShadowPanel1.Controls.Add(this.label3);
             this.bunifuShadowPanel1.Controls.Add(this.tileBtnIngenieur);
             this.bunifuShadowPanel1.Location = new System.Drawing.Point(51, 145);
@@ -259,7 +260,6 @@
             // bunifuShadowPanel2
             // 
             this.bunifuShadowPanel2.BorderColor = System.Drawing.Color.Transparent;
-            this.bunifuShadowPanel2.Controls.Add(this.ucHome1);
             this.bunifuShadowPanel2.Controls.Add(this.label4);
             this.bunifuShadowPanel2.Controls.Add(this.tileBtnSecrtr);
             this.bunifuShadowPanel2.Location = new System.Drawing.Point(366, 145);
@@ -269,6 +269,16 @@
             this.bunifuShadowPanel2.ShadowTopLeftVisible = false;
             this.bunifuShadowPanel2.Size = new System.Drawing.Size(251, 261);
             this.bunifuShadowPanel2.TabIndex = 0;
+            // 
+            // ucHome1
+            // 
+            this.ucHome1.BackColor = System.Drawing.Color.White;
+            this.ucHome1.Location = new System.Drawing.Point(212, 37);
+            this.ucHome1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ucHome1.Name = "ucHome1";
+            this.ucHome1.Size = new System.Drawing.Size(994, 611);
+            this.ucHome1.TabIndex = 32;
+            this.ucHome1.Load += new System.EventHandler(this.ucHome1_Load);
             // 
             // label4
             // 
@@ -313,7 +323,7 @@
             this.containerButton.Controls.Add(this.flatBtn_stats);
             this.containerButton.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.containerButton.Location = new System.Drawing.Point(20, 114);
-            this.containerButton.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.containerButton.Margin = new System.Windows.Forms.Padding(5);
             this.containerButton.Name = "containerButton";
             this.containerButton.Padding = new System.Windows.Forms.Padding(4, 4, 4, 8);
             this.containerButton.Size = new System.Drawing.Size(176, 363);
@@ -594,6 +604,33 @@
             this.bunifuImageButton1.Zoom = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.BunifuImageButton1_Click);
             // 
+            // ucStatistique1
+            // 
+            this.ucStatistique1.BackColor = System.Drawing.Color.Snow;
+            this.ucStatistique1.Location = new System.Drawing.Point(212, 37);
+            this.ucStatistique1.Margin = new System.Windows.Forms.Padding(1);
+            this.ucStatistique1.Name = "ucStatistique1";
+            this.ucStatistique1.Size = new System.Drawing.Size(994, 611);
+            this.ucStatistique1.TabIndex = 3;
+            // 
+            // ucSaisie1
+            // 
+            this.ucSaisie1.BackColor = System.Drawing.Color.Snow;
+            this.ucSaisie1.Location = new System.Drawing.Point(212, 37);
+            this.ucSaisie1.Margin = new System.Windows.Forms.Padding(4);
+            this.ucSaisie1.Name = "ucSaisie1";
+            this.ucSaisie1.Size = new System.Drawing.Size(994, 611);
+            this.ucSaisie1.TabIndex = 2;
+            // 
+            // ucCrudClient1
+            // 
+            this.ucCrudClient1.BackColor = System.Drawing.Color.Snow;
+            this.ucCrudClient1.Location = new System.Drawing.Point(212, 37);
+            this.ucCrudClient1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ucCrudClient1.Name = "ucCrudClient1";
+            this.ucCrudClient1.Size = new System.Drawing.Size(994, 611);
+            this.ucCrudClient1.TabIndex = 4;
+            // 
             // bunifuElipse_panel
             // 
             this.bunifuElipse_panel.ElipseRadius = 45;
@@ -634,43 +671,6 @@
             this.bunifuElipse9.ElipseRadius = 20;
             this.bunifuElipse9.TargetControl = this.tileBtnSecrtr;
             // 
-            // ucHome1
-            // 
-            this.ucHome1.BackColor = System.Drawing.Color.White;
-            this.ucHome1.Location = new System.Drawing.Point(-339, 164);
-            this.ucHome1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.ucHome1.Name = "ucHome1";
-            this.ucHome1.Size = new System.Drawing.Size(994, 611);
-            this.ucHome1.TabIndex = 32;
-            this.ucHome1.Load += new System.EventHandler(this.ucHome1_Load);
-            // 
-            // ucStatistique1
-            // 
-            this.ucStatistique1.BackColor = System.Drawing.Color.Snow;
-            this.ucStatistique1.Location = new System.Drawing.Point(212, 37);
-            this.ucStatistique1.Margin = new System.Windows.Forms.Padding(1);
-            this.ucStatistique1.Name = "ucStatistique1";
-            this.ucStatistique1.Size = new System.Drawing.Size(994, 611);
-            this.ucStatistique1.TabIndex = 3;
-            // 
-            // ucSaisie1
-            // 
-            this.ucSaisie1.BackColor = System.Drawing.Color.Snow;
-            this.ucSaisie1.Location = new System.Drawing.Point(212, 37);
-            this.ucSaisie1.Margin = new System.Windows.Forms.Padding(4);
-            this.ucSaisie1.Name = "ucSaisie1";
-            this.ucSaisie1.Size = new System.Drawing.Size(994, 611);
-            this.ucSaisie1.TabIndex = 2;
-            // 
-            // ucCrudClient1
-            // 
-            this.ucCrudClient1.BackColor = System.Drawing.Color.Snow;
-            this.ucCrudClient1.Location = new System.Drawing.Point(212, 37);
-            this.ucCrudClient1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.ucCrudClient1.Name = "ucCrudClient1";
-            this.ucCrudClient1.Size = new System.Drawing.Size(994, 611);
-            this.ucCrudClient1.TabIndex = 4;
-            // 
             // bunifuElipse_saisie
             // 
             this.bunifuElipse_saisie.ElipseRadius = 45;
@@ -693,11 +693,11 @@
             // 
             // uIngenieur1
             // 
-            this.uIngenieur1.Location = new System.Drawing.Point(-51, -146);
-            this.uIngenieur1.Margin = new System.Windows.Forms.Padding(1);
+            this.uIngenieur1.Location = new System.Drawing.Point(212, 37);
+            this.uIngenieur1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.uIngenieur1.Name = "uIngenieur1";
-            this.uIngenieur1.Size = new System.Drawing.Size(1113, 480);
-            this.uIngenieur1.TabIndex = 1;
+            this.uIngenieur1.Size = new System.Drawing.Size(1099, 464);
+            this.uIngenieur1.TabIndex = 33;
             // 
             // Form1
             // 
