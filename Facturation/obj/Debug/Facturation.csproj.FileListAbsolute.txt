@@ -163,3 +163,4 @@ C:\Users\pc\Documents\GitHub\FacturApp\Facturation\obj\Debug\Facturation.csproj.
 C:\Users\pc\Documents\GitHub\FacturApp\Facturation\obj\Debug\Facturation.csproj.CopyComplete
 C:\Users\pc\Documents\GitHub\FacturApp\Facturation\obj\Debug\Facturation.exe
 C:\Users\pc\Documents\GitHub\FacturApp\Facturation\obj\Debug\Facturation.pdb
+C:\Users\pc\Desktop\Facturation\Facturation\obj\Debug\Facturation.UserControls.UIngenieur.resources
